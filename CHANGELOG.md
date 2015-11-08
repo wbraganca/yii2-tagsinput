@@ -1,9 +1,15 @@
-yii2-dynamicform change Log
-===========================
+yii2-tagsinput change Log
+=========================
 
 dev-master
 ----------
 
+
+version 1.0.1
+-------------
+**Date:** 08-Nov-2015
+
+- Enh: bootstrap-tagsinput.js dependency updated to ~0.6
 
 version 1.0.0
 -------------
