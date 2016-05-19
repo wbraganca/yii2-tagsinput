@@ -23,8 +23,8 @@
         "source": "https://github.com/wbraganca/yii2-tagsinput"
     },
     "require": {
-        "yiisoft/yii2": "~2.0",
-        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
         "bower-asset/typeahead.js": "0.10.* | ~0.11.0",
         "bower-asset/bootstrap-tagsinput": "~0.6"
     },
