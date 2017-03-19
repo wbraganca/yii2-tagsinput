@@ -4,6 +4,11 @@ yii2-tagsinput change Log
 dev-master
 ----------
 
+version 1.0.2
+-------------
+**Date:** 18-Mar-2017
+
+- Enh: bootstrap-tagsinput.js dependency updated to ~0.8
 
 version 1.0.1
 -------------

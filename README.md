@@ -10,13 +10,13 @@
 Via Composer
 
 ```bash
-$ composer require wbraganca/yii2-tagsinput
+$ composer require "wbraganca/yii2-tagsinput:~1.0.2"
 ```
 
-or add
+or add to the require section of your `composer.json` file.
 
 ```
-"wbraganca/yii2-tagsinput": "*"
+"wbraganca/yii2-tagsinput": "~1.0.2"
 ```
 
 to the require section of your `composer.json` file.

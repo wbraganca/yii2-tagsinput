@@ -18,6 +18,8 @@
             "homepage": "http://wbraganca.com"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "support": {
         "issues": "https://github.com/wbraganca/yii2-tagsinput/issues",
         "source": "https://github.com/wbraganca/yii2-tagsinput"
@@ -25,7 +27,7 @@
     "require": {
         "yiisoft/yii2": "~2.0",
         "yiisoft/yii2-bootstrap": "~2.0.0",
-        "bower-asset/bootstrap-tagsinput": "~0.6"
+        "bower-asset/bootstrap-tagsinput": "~0.8"
     },
     "require-dev": {
         "phpunit/phpunit": "~5.0"
