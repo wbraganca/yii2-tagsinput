@@ -65,7 +65,7 @@ class TagsinputWidget extends \yii\widgets\InputWidget
         $encOptions = empty($this->clientOptions) ? '{}' : Json::encode($this->clientOptions);
         $this->_hashVar = self::PLUGIN_NAME . '_' . hash('crc32', $encOptions);
         $this->options['data-plugin-' . self::PLUGIN_NAME] = $this->_hashVar;
-        $view->registerJs("var {$this->_hashVar} = {$encOptions};\n", View::POS_HEAD);
+        $view->registerJs("var {$this->_hashVar} = {$encOptions};\n", View::POS_END);
     }
 
     /**
